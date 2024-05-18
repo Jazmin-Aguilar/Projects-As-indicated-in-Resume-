@@ -1,13 +1,11 @@
 /* Name:Jazmin Aguilar
     DTSC660: Data and Database Managment with SQL
-    Module 8
-    Assignment 7
-
+    
 	Netflix data set
 	I enjoy watching my shows on Netflix so I figuired it would be cool to analyze the data from Netflix*/
 
 /* PART 1
-Created a table for the Netflix csv file*/
+Created a table for the Netflix csv file with respect to each column in the dataset*/
 
 CREATE TABLE netflix (
 show_id varchar(40),
@@ -22,7 +20,7 @@ duration varchar(40),
 listed_in text
 );	
 
-/*COPY COMMAND*/
+/*COPY the path to the netflix file as indicated in my computer*/
 
 COPY netflix
 FROM 'C:\Users\Public\netflix.csv'
